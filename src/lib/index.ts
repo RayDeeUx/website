@@ -17,9 +17,9 @@ export const icons = {
     examples: "mdi:text-search",
     graph: "mdi:graph-line",
     windows: "mdi:microsoft-windows",
-    mac: "mdi:apple-finder", // note: this used to be "mdi:apple". ios will use "mdi:apple" eventually
+    mac: "mdi:apple-finder", // formerly "mdi:apple" before geode iOS was real
     android: "mdi:android",
-    ios: "mdi:ipod", // temporary. change to "mdi:apple" after some time.
+    ios: "mdi:ipod", // we do a little trolling (note: maybe design a custom iPhone SVG?)
     linux: "mdi:linux",
     copyright: "mdi:copyright",
     help: "mdi:help-circle",
@@ -88,9 +88,9 @@ export const icons = {
     "tag-joke": "mdi:comedy",
     "tag-api": "mdi:api",
     "tag-modtober24": "mdi:clouds",
-    "tag-modtober24winner": "trophy-variant-outline",
+    "tag-modtober24winner": "mdi:trophy-variant-outline",
     "tag-modtober25": "mdi:exclamation-thick",
-    "tag-modtober25winner": "trophy-variant-outline"
+    "tag-modtober25winner": "mdi:trophy-variant-outline"
 };
 export type KnownIcon = keyof typeof icons;
 
